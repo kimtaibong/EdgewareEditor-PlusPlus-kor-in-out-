@@ -1,4 +1,4 @@
-#Edgeware Editor++
+# Edgeware Editor++
 
 This is my expansion of the Edgeware Pack Editor, made to not only be compatible with Edgeware++, but also have more features (and generally be more usable).
 
