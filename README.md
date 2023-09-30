@@ -1,3 +1,13 @@
+#Edgeware Editor++
+
+This is my expansion of the Edgeware Pack Editor, made to not only be compatible with Edgeware++, but also have more features (and generally be more usable).
+
+You can find Edgeware++ [here](https://github.com/araten10/EdgewarePlusPlus).
+
+If you don't know what Edgeware or Edgeware++ is and have somehow made it here, please note it is 18+ software designed to act like a virus for fetish reasons, without actually being a malicious program in any way. For more information, check out either the Edgeware++ github page, or the original project by PetitTournesol.
+
+Right now there are no differences in this fork from the original version, but I am currently working on it and wanted to set it up beforehand. Hopefully I remember to delete this line once I change stuff, boy that would be embarrassing if I didn't!
+
 # Edgeware-Pack-Editor
 
 Pack editor for Edgeware resource packs.
