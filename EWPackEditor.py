@@ -48,7 +48,7 @@ class Pack:
                 print('importing', fileName)
                 try:
                     fullPath = os.path.join(path, fileName + '.json')
-                    with open(fullPath, 'r') as file:
+                    with open(fullPath, 'r', encoding='utf-8') as file:
                         self.resourceDict[fileName] = json.loads(file.read())
                 except:
                     print('failed to import', fileName)
@@ -62,7 +62,7 @@ class Pack:
                 
             print('importing discord.dat')
             try:
-                with open(os.path.join(path, 'discord.dat')) as file:
+                with open(os.path.join(path, 'discord.dat'), 'r', encoding='utf-8') as file:
                     self.resourceDict['discord'] = file.readline().replace('\n', '')
             except:
                 print('failed to import discord.dat')
@@ -111,7 +111,7 @@ class Pack:
             #saving json files
             print('saving json/text files')
             for fileName in JSON_FILE_NAMES:
-                with open(os.path.join(namedPath, fileName + '.json'), 'w') as file:
+                with open(os.path.join(namedPath, fileName + '.json'), 'w', encoding='utf-8') as file:
                     file.write(json.dumps(self.resourceDict[fileName]))
             with open(os.path.join(namedPath, 'discord.dat'), 'w') as file:
                 file.write(self.resourceDict['discord'])
